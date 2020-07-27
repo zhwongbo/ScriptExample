@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.Profiling;
+﻿using UnityEngine;
 
 public class GetComponentByDrag : MonoBehaviour
 {
@@ -9,11 +6,8 @@ public class GetComponentByDrag : MonoBehaviour
 	public ExampleComponent exampleComponent;
 
 	// Use this for initialization
-	void Start () 
+	private void Update()
 	{
-		if (exampleComponent)
-		{
-			exampleComponent.DoSomething();
-		}
+		exampleComponent.DoSomething();
 	}
 }

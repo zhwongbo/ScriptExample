@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\zhaowangbao\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\zhaowangbao\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_ScriptExample.854921074.00" t="ExcludeRecursive" />
+    <e p="E:\Work\ScriptExample" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets\Scripts" t="Include">
+        <e p="Coroutine" t="Include">
+          <e p="CoroutineExample.cs" t="Include" />
+        </e>
+        <e p="CSharpArray.cs" t="Include" />
+        <e p="CSharpArray2.cs" t="Include" />
+        <e p="CSharpOut.cs" t="Include" />
+        <e p="CSharpRef.cs" t="Include" />
+        <e p="ExecutionOrder" t="Include">
+          <e p="ExecutionCode.cs" t="Include" />
+          <e p="ExecutionCode1.cs" t="Include" />
+          <e p="ExecutionCode2.cs" t="Include" />
+          <e p="ExecutionCode3.cs" t="Include" />
+          <e p="ExecutionCode4.cs" t="Include" />
+          <e p="ExecutionCode5.cs" t="Include" />
+        </e>
+        <e p="FindGameObject" t="Include">
+          <e p="FindGameObjectWithName.cs" t="Include" />
+          <e p="FindGameObjectWithTag.cs" t="Include" />
+        </e>
+        <e p="GetComponent" t="Include">
+          <e p="ExampleComponent.cs" t="Include" />
+          <e p="GetComponentByDrag.cs" t="Include" />
+          <e p="GetComponentByScript.cs" t="Include" />
+          <e p="GetComponentFindProfiler.cs" t="Include" />
+          <e p="GetInternalComponent.cs" t="Include" />
+        </e>
+        <e p="HelloWorld.cs" t="Include" />
+        <e p="HelloWorld3.cs" t="Include" />
+        <e p="Mathf" t="Include">
+          <e p="SmoothDamp.cs" t="Include" />
+        </e>
+        <e p="Transform" t="Include">
+          <e p="ObjRotate.cs" t="Include" />
+          <e p="ObjRotate2.cs" t="Include" />
+          <e p="ObjRotateAround.cs" t="Include" />
+          <e p="ObjTranslate.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="ScriptExample.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

@@ -1,8 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ObjTrans1 : MonoBehaviour {
+public class ObjRotateAround : MonoBehaviour
+{
 
+	public float speed = 30;
+	
 	// Use this for initialization
 	void Start () {
 	
@@ -11,9 +14,7 @@ public class ObjTrans1 : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		var speed=2.0f;
-		transform.Translate(Vector3.forward * Time.deltaTime* speed); 
-
+		transform.RotateAround (Vector3.zero, Vector3.up, speed * Time.deltaTime);
 
 	}
 }

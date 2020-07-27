@@ -1,11 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ExampleComponent : MonoBehaviour
 {
 
 	private Transform _transform;
+	private float _rotateSpeed = 0.3f;
 	
 	// Use this for initialization
 	void Start ()
@@ -14,16 +13,11 @@ public class ExampleComponent : MonoBehaviour
 		DoSomething();
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
 	public void DoSomething()
 	{
 		if (_transform)
 		{
-			_transform.Rotate(Vector3.up, 30);
+			_transform.Rotate(Vector3.up, _rotateSpeed);
 		}
 	}
 }

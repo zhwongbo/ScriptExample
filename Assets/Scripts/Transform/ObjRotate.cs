@@ -1,8 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ObjTrans2 : MonoBehaviour {
+public class ObjRotate : MonoBehaviour
+{
 
+	public float speed = 30;
+	
 	// Use this for initialization
 	void Start () {
 	
@@ -11,9 +14,8 @@ public class ObjTrans2 : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		var speed=30.0f;
 		//Time.deltaTime表示距上一次调用所用的时间。
-		transform.Rotate(Vector3.up * Time.deltaTime*speed); 
+		transform.Rotate(Vector3.up * Time.deltaTime * speed); 
 
 	}
 }
