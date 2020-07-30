@@ -5,15 +5,17 @@ public class ObjTranslate : MonoBehaviour
 {
 
 	public float speed = 1;
+	private Transform _transform;
 	
 	// Use this for initialization
-	void Start () {
-	
+	void Start ()
+	{
+		_transform = transform;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-		transform.Translate(Vector3.left * Time.deltaTime* speed); 
+		_transform.Translate(Vector3.left * Time.deltaTime* speed); 
 	}
 }

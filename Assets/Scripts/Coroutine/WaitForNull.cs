@@ -6,13 +6,13 @@ public class WaitForNull : MonoBehaviour {
 
 	IEnumerator Start ()
 	{
-		print ("Starting " + Time.time);
+		print ("Starting " + Time.frameCount);
 		yield return StartCoroutine(WaitAndPrint());
-		print ("Done " + Time.time);
+		print ("Done " + Time.frameCount);
 	}
 	IEnumerator WaitAndPrint ()
 	{
-		yield return null;
-		print ("WaitAndPrint "+ Time.time);
+		yield return 5000;
+		print ("WaitAndPrint "+ Time.frameCount);
 	}
 }

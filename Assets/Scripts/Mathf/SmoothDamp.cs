@@ -7,13 +7,13 @@ public class SmoothDamp : MonoBehaviour {
 	public float smoothTime = 0.3F;
 	private Vector3 force = new Vector3(0, 1000, 0);
 	private float yVelocity = 0.0F;
-	private Rigidbody _rigidbody;
+	private Transform _targetTransform;
 	private Transform _transform;
 	
 	void Start()
 	{
 		_transform = transform;
-		_rigidbody = target.GetComponent<Rigidbody>();
+		_targetTransform = target.GetComponent<Transform>();
 	}
 	
 	// Update is called once per frame
@@ -23,11 +23,16 @@ public class SmoothDamp : MonoBehaviour {
 	}
 
 
-	public void AddForce()
+	public void MoveToRight()
 	{
-		if (_rigidbody)
+		if (_targetTransform)
 		{
-			_rigidbody.AddForce(force);
+			_targetTransform.position -= Vector3.up * 5;
 		}
+	}
+
+	public void MoveToLeft()
+	{
+		_targetTransform.position += Vector3.up * 5;
 	}
 }

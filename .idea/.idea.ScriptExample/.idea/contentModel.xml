@@ -43,11 +43,13 @@
         <e p="Mathf" t="Include">
           <e p="SmoothDamp.cs" t="Include" />
         </e>
+        <e p="NewBehaviourScript.cs" t="Include" />
         <e p="Random" t="Include">
           <e p="RandomTest.cs" t="Include" />
         </e>
         <e p="Time" t="Include">
           <e p="RotateDeltaTime.cs" t="Include" />
+          <e p="TimeDemo.cs" t="Include" />
           <e p="TimeScaleController.cs" t="Include" />
         </e>
         <e p="Transform" t="Include">
